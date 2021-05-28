@@ -1,0 +1,185 @@
+body{  
+    color: #3f3f3f;
+    font-family: CerebriSans;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    line-height: 1.74;
+}
+
+.navbar-expand-lg {
+    padding:20px 0 20px 0;
+}
+.navbar-brand{
+    display: flex;
+    flex-grow: 1;
+}
+.navbar-nav{
+    display: flex;
+    text-align: center;
+}
+.navbar ul li{
+    padding: 5px;
+}
+.navbar-nav {
+    flex-direction: row-reverse;
+}
+.navbar-expand-lg .navbar-collapse {
+    flex-direction:row-reverse ;
+    font-weight: bold;
+}
+.img-fluid{
+    width: 100%;
+    height: auto;
+}
+.industries_served{
+    padding: 50px 84px 50px 84px;
+    background-color: rgb(252, 241, 243);
+    
+}
+.making{
+    padding-top: 50px;
+}
+.making span{
+    font-size: 14px;
+}
+.saas{
+    color:#d00d01;
+}
+.fsb{
+    font-size: 20px;
+}
+.make_it{
+    text-align: left;
+}
+.build{
+    font-size: 32px;
+}
+.saas{
+    font-size: 55px;
+}
+
+.help_startup{
+    text-align: center;
+    margin:50px 0 50px 0
+}
+.heading {
+    color:#3f3f3f;
+    font-size: 14px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    line-height: 1.43;
+}
+.heading_center{
+    font-size: 35px;
+}
+.poc_dev{
+    padding: 75px 0 0 0;
+    text-align: justify;
+}
+.poc_dev i{
+    content: 'f7d9';
+}
+.mvp_dev{
+        padding: 75px 0 0 0;
+        text-align: justify;
+}
+.mvp_dev i{
+    font-size: 55px;
+    color: red;
+}
+.visual_design{
+    padding: 75px 0 0 0;
+    text-align: justify;
+}
+.industries_last{
+    text-align: center;
+}
+.why_with_us{
+    padding:100px 180px 100px 180px;
+}
+.why{
+    text-align: center;
+}
+.list_heading{
+    font-size: 24px;
+    line-height: 1.2;
+    margin-top: 14px;
+    padding-top: 20px;
+    border-top: 2px solid #ededed;
+}
+.list{
+    margin-left: 35px;
+    
+}
+.list_content{
+    margin-top: 21px;
+}
+.mark{
+    
+        font-size: 24px;
+        font-weight: 800;
+        line-height: 1.2;
+        margin-right: 10px;
+        min-width: 45px;
+        display: inline-block;
+        color: #d00d01;
+}
+.end_why{
+    margin-top: 50px;
+    text-align: center;
+}
+.testimonials{
+    padding: 50px 84px 50px 84px;
+    background-color: #3f3f3f;
+
+}
+.mark{
+    background: none;
+}
+mark{
+    background: none;
+}
+.testimonial_intro{
+    text-align: center;
+    line-height: 1.4;
+    color: #696969;
+}
+.testimonial_intro mark{
+    color: #ffff;
+}
+.index_contact{
+    background-color:rgb(252, 241, 243);
+}
+.index_contact_content{
+    padding:100px 84px 100px 84px;
+}
+.index_contact_content mark{
+    color: #d00d01;
+}
+.index_contact_content button{
+    float: right;
+    background-color: #d00d01;
+    color: white;
+}
+.our_clients{
+    text-align: center;
+    padding: 84px 20px 84px 20px;
+}
+.our_clients mark{
+    color: #d00d01;
+}
+.our_clients .intro{    
+    margin-left: 84px;
+    margin-right: 84px;
+}
+.our_clients .intro p{
+    padding: 20px 0 20px 0;
+}
+.image img{
+    border-radius: 24px;
+
+}
+.trust{
+    padding-top: 50px;
+}
