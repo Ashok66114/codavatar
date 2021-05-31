@@ -320,3 +320,228 @@ input[type='email'],
     padding-bottom: 10px;
     font-size: 18px;
 }
+/*About us page*/
+.intro_header{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: #ababab;
+}
+.intro_title{
+    margin: 0;
+    padding: 0%;
+    font-size: 40px;
+    font-weight: bold;
+}
+.intro_title mark{
+    color: rgb(221, 32, 32);
+    padding: 0;
+}
+.needed_empty_space{
+    height: 23px;
+}
+.needed_large_empty_space{
+    height: 84px;
+}
+.our_company{
+    padding-bottom: 84px;
+}
+.our_mission{
+    background-color:rgb(252, 241, 243) ;
+}
+.our_mission{
+    padding-bottom: 84px;
+}
+.our_core_values .intro_header{
+    text-align: center;
+}.our_core_values .intro_title{
+    text-align: center;
+}
+ .list-item .marker {
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-right: 10px;
+    min-width: 45px;
+    color: #ababab;
+    
+}
+.list_header.marker {
+
+    display: inline-block;
+    
+}
+.title-list {
+    font-size: 24px;
+    line-height: 1.2;
+    margin-top: 14px;
+    padding-top: 20px;
+    border-top: 2px solid #ededed;
+}
+.desc {
+    margin-top: 21px;
+    margin-bottom: 0;
+}
+
+.count{
+    text-align: center;
+}
+.countings{
+    background-color: #212121;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.count span{
+    font-size: 45px;
+}
+.count h5{
+    font-size: 14px;
+}
+.joinbtn{
+    color: white;
+    background-color: rgb(199, 4, 4);
+    float: right;
+}
+.join mark{
+    color:rgb(199, 4, 4)
+}
+/*gallery*/
+.gallery_cont{
+    
+    margin: 2rem auto; 
+  }
+  
+  .gallery {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 5vw);
+    grid-gap: 1.5rem; 
+  }
+  
+  .gallery__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block; 
+  }
+  
+  .gallery__item--1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  
+    /** Alternative Syntax **/
+    /* grid-column: 1 / span 2;  */
+    /* grid-row: 1 / span 2; */
+  }
+  
+  .gallery__item--2 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  
+    /** Alternative Syntax **/
+    /* grid-column: 3 / span 2;  */
+    /* grid-row: 1 / span 2; */
+  }
+  
+  .gallery__item--3 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 6;
+  
+    /** Alternative Syntax **/
+    /* grid-column: 5 / span 4;
+    grid-row: 1 / span 5; */
+  }
+  
+  .gallery__item--4 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 6;
+  
+    /** Alternative Syntax **/
+    /* grid-column: 1 / span 4;  */
+    /* grid-row: 3 / span 3; */
+  }
+  
+  .gallery__item--5 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 6;
+    grid-row-end: 9;
+  
+    /** Alternative Syntax **/
+    /* grid-column: 1 / span 4; */
+    /* grid-row: 6 / span 3; */
+  }
+  
+  .gallery__item--6 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 6;
+    grid-row-end: 9;
+  }
+  .outdoor{
+      text-align: center;
+      
+  }
+  .outdoor h3{
+    padding-bottom: 15px;
+    border-bottom: 1px solid #7e7979;
+    display: inline-block;
+  }
+  .outdoor mark{
+      color: rgb(199, 4, 4);
+  }
+  .mentorship{
+      padding: 20px;
+  }
+  .mentorship_head i{
+      display: inline-block;
+      font-size: 34px;
+      margin-right: 15px;
+  }
+  .mentorship_head h4{
+      margin-bottom: 15px;
+      font-size: 24px;
+      font-weight: bold;
+      color: rgb(199, 4, 4);
+      display: inline-block;
+  }
+  .work_with_us{
+      text-align: center;
+  }
+  .ready{
+      text-align: center;
+      color: white;
+      padding-top: 75px;
+      padding-bottom: 75px; ;
+      background-color: rgb(197, 31, 31);
+  }
+  .ready h3{
+      font-weight: 500;
+      font-size: 40px;
+  }
+  .readybtn{
+      background-color: rgb(29, 27, 27);
+      color: white;
+  }
+
+
+  .family h5{
+      color: #333333;
+      font-size: 25px;
+      font-weight: bold;
+  }
+  .team_members h5{
+      color: #d00d01;
+      text-align: center;
+      font-weight: 600;
+  }
