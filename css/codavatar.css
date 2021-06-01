@@ -533,7 +533,7 @@ input[type='email'],
       background-color: rgb(29, 27, 27);
       color: white;
   }
-
+/*team*/
 
   .family h5{
       color: #333333;
@@ -545,3 +545,132 @@ input[type='email'],
       text-align: center;
       font-weight: 600;
   }
+  figure{
+      position:relative;
+      padding-bottom: 45px;
+      margin: 0;
+      overflow: hidden;
+  }
+  figure img {
+    width: 100%;
+    display: block;
+    position: relative;
+    margin: 0;
+    border: none;
+    max-width: 100%;
+    height: auto;
+}
+  figcaption {
+    left: 25px;
+    right: 25px;
+}
+figcaption h3 {
+    font-size: 18px;
+    margin: 0 0 3px;
+    padding: 0;
+    font-size: 1.17em;
+    line-height: 1.4;
+    color: #1f1f1f;
+}
+ figcaption {
+    height: 90px;
+    bottom: 0;
+    left: 30px;
+    right: 30px;
+    position: absolute;
+    color: rgba(31,31,31,1);
+    text-align: center;
+    overflow: hidden;
+    background: #fff;
+    padding: 20px;
+}
+
+  /*carrer page*/
+  .carrer{
+      text-align: center;
+  }
+  .why_us{
+      text-align: center;
+      background-color: rgb(252, 241, 243) ;
+  }
+  .opportunity{
+      text-align: center;
+  }
+  .form_section{
+      background-color: #f2f2f2;
+      margin: 30px 0 15px;
+    padding: 35px 30px 0;
+    border-radius: 5px;
+  }
+ .form_section input[type='text'] {
+    
+    border-radius: 5px;
+    height: auto;
+    background-color: white;
+ }
+ .form_section button[type='button']{
+     padding:0 50px 0 50px;
+     color: white;
+     background-color: rgb(199, 4, 4);
+     width: 100%;
+ }
+
+ .job_box {
+    border-radius: 5px !important;
+    padding: 35px 30px;
+    border: 1px solid #e1e1e1;
+    margin: 15px 0;
+}
+.job_box h4 a{
+    font-size: 16px;
+    color: #333333;
+    text-decoration: none;
+    
+}
+.job_box h4 a:hover{
+    color: #d00d01;
+}
+.job_box h4 a span{
+    margin-bottom: 0;
+}
+.job_box i{
+    color: #d00d01;
+    margin: 2px 5px 0 0 ;
+}
+.job-list .job_box .job-description p {
+    color: #666;
+    font-size: 16px;
+    margin: 0 0 10px;
+    word-wrap: break-word;
+}
+.job-description .btn-primary{
+    color: white;
+    background-color: #d00d01;
+    border: none;
+}
+/*POC Process*/
+.poc_process{
+    background-color: rgb(252, 241, 243);
+}
+.poc{
+    text-align: center;
+}
+.poc h3{
+    margin: 0 235px;
+}
+.poc_process .poc_development_stage .intro_header{
+    font-size: 15px;
+    color: #d00d01;
+}
+.poc_process .poc_development_stage .intro_title{
+    font-size: 27px;
+}
+.poc_end{
+    text-align: center;
+}
+.faqs{
+    padding:0 150px;
+}
+.faqs .question h5{
+    font-weight: bold;
+}
