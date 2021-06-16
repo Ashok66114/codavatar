@@ -16,12 +16,14 @@
     <link rel="stylesheet" type="text/css" href="assets/owl/assets/owl.carousel.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/owl/assets/owl.theme.default.min.css">
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+
     <title>Codavatar</title>
   </head>
   <body>
     <div class="page_wrap">
         <!--Navbar section-->
-        <div class="header">
+        <div class="header sticky-top">
             <div class="container">
                 <div class="nav-section">
                     <nav class="navbar navbar-expand-lg navbar-light">
@@ -236,9 +238,14 @@
         </div>
         <div class="testimonials">
             <div class="testimonial_intro">
-                <h4>TESTIMONIALS</h4>
-                <h3>What our <mark>customers</mark>
-                    have to say about us</h3>
+                <h6 class="intro_header">
+                    TESTIMONIALS
+                </h6>
+                <div class="needed_empty_space">
+                </div>
+                <h3 class="intro_title">
+                    What our <mark>customers</mark> have to say about us
+                </h3>
             </div>
             <div class="needed_large_empty_space"></div>
             <div class="owl-carousel owl-theme categories_list">
@@ -304,7 +311,7 @@
 
             </div> 
             </div>
-        </div>
+        
         <div class="index_contact">
             <div class="index_contact_content">
                 <div class="container">
@@ -352,13 +359,35 @@
                 <h4 class="intro_title">
                     Trusted by 9+ happy clients from <mark>all around the world.</mark>
                 </h4>
-                <div class="needed_empty_space"></div>
-                <div class="needed_empty_space"></div>
+                <div class="needed_large_empty_space"></div>
             </div>
-            <div class="slider">
-                
+            <div class="slider-section">
+                <div class="container">
+                <div class="wrapper">
+                    <div class="slider">
+                      <div class="slide">
+                        <img src="images/aqua.png" />
+                        <img src="images/bull.png"/>
+                        <img src="images/fenced-color.png" />
+                        <img src="images/krsih-color.png" />
+                        <img src="images/out-color.png" />
+                        <img src="images/pen.png" />
+                        <img src="images/time-tracko-l.png" />
+                      </div>
+                      <div class="slide">
+                        <img src="images/aqua.png" />
+                        <img src="images/bull.png"/>
+                        <img src="images/fenced-color.png" />
+                        <img src="images/krsih-color.png" />
+                        <img src="images/out-color.png" />
+                        <img src="images/pen.png" />
+                        <img src="images/time-tracko-l.png" />
+                      </div>
+                    </div>
+                </div>
+                </div>
             </div>
-        </div>
+            <div class="needed_large_empty_space"></div>
         <div class="our_team">
             <div class="intro">
                 <h6 class="intro_header">
@@ -616,7 +645,32 @@
         <div class="copyright">
             <h6>2021 &copy;CODAVATAR. All Rights Reserved</h6>
         </div>
+        <a class="page-scroll-up" onclick="topFunction()" id="myBtn">
+            <i class="arrow-top fa fa-long-arrow-up"></i>
+        </a>
     </div>
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("myBtn");
+        
+        // When the user scrolls down 1000px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 1000 || document.documentElement.scrollTop >1000) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+        </script>
+        
 
     <div id="fb-root"></div>
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v10.0" nonce="qaZ8htZI"></script>
@@ -628,32 +682,33 @@
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
 
     <script src="assets/owl/owl.carousel.min.js"></script>
-<script>
-    $(function () {
-        $(document).ready(function(){
-          $(".categories_list").owlCarousel({
-              items: 4,
-              autoplay: true,
-              dots: false,
-              autoplaySpeed:10000,
-              autoplayTimeout:1000,
-              autoplayHoverPause:true,
-              loop:true,
-              margin:5,
-              responsive:{
-                  0:{
-                      items:2,
-                  },
-                  768:{
-                      items:4,
-                  },
-                  992:{
-                  	items:4,
-                  }
-              }
-          });
-        });
-    });
-</script>
+        <script>
+            $(function () {
+                $(document).ready(function(){
+                $(".categories_list").owlCarousel({
+                    items: 4,
+                    autoplay: true,
+                    dots: false,
+                    autoplaySpeed:10000,
+                    autoplayTimeout:1000,
+                    autoplayHoverPause:true,
+                    loop:true,
+                    margin:5,
+                    responsive:{
+                        0:{
+                            items:2,
+                        },
+                        768:{
+                            items:4,
+                        },
+                        992:{
+                            items:4,
+                        }
+                    }
+                });
+                });
+            });
+        </script>
+
   </body>
 </html>
